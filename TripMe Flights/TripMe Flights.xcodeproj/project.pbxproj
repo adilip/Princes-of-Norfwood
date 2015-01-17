@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		5BDB36701A6A2C6F0051CD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB366F1A6A2C6F0051CD30 /* main.m */; };
 		5BDB36731A6A2C6F0051CD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB36721A6A2C6F0051CD30 /* AppDelegate.m */; };
-		5BDB36761A6A2C6F0051CD30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB36751A6A2C6F0051CD30 /* ViewController.m */; };
 		5BDB36791A6A2C6F0051CD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB36771A6A2C6F0051CD30 /* Main.storyboard */; };
 		5BDB367B1A6A2C6F0051CD30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB367A1A6A2C6F0051CD30 /* Images.xcassets */; };
 		5BDB367E1A6A2C6F0051CD30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB367C1A6A2C6F0051CD30 /* LaunchScreen.xib */; };
 		5BDB368A1A6A2C700051CD30 /* TripMe_FlightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB36891A6A2C700051CD30 /* TripMe_FlightsTests.m */; };
+		5BDB36961A6A43CA0051CD30 /* TripRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB36951A6A43CA0051CD30 /* TripRequest.m */; };
+		5BDB369C1A6A51680051CD30 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB369A1A6A51680051CD30 /* home.png */; };
+		5BDB369D1A6A51680051CD30 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB369B1A6A51680051CD30 /* list.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,16 @@
 		5BDB366F1A6A2C6F0051CD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BDB36711A6A2C6F0051CD30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BDB36721A6A2C6F0051CD30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BDB36741A6A2C6F0051CD30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BDB36751A6A2C6F0051CD30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5BDB36781A6A2C6F0051CD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BDB367A1A6A2C6F0051CD30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BDB367D1A6A2C6F0051CD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5BDB36831A6A2C700051CD30 /* TripMe FlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TripMe FlightsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDB36881A6A2C700051CD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BDB36891A6A2C700051CD30 /* TripMe_FlightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripMe_FlightsTests.m; sourceTree = "<group>"; };
+		5BDB36941A6A409A0051CD30 /* TripRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TripRequest.h; path = ../TripRequest.h; sourceTree = "<group>"; };
+		5BDB36951A6A43CA0051CD30 /* TripRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TripRequest.m; path = ../TripRequest.m; sourceTree = "<group>"; };
+		5BDB369A1A6A51680051CD30 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		5BDB369B1A6A51680051CD30 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +87,13 @@
 			children = (
 				5BDB36711A6A2C6F0051CD30 /* AppDelegate.h */,
 				5BDB36721A6A2C6F0051CD30 /* AppDelegate.m */,
-				5BDB36741A6A2C6F0051CD30 /* ViewController.h */,
-				5BDB36751A6A2C6F0051CD30 /* ViewController.m */,
+				5BDB36941A6A409A0051CD30 /* TripRequest.h */,
+				5BDB36951A6A43CA0051CD30 /* TripRequest.m */,
 				5BDB36771A6A2C6F0051CD30 /* Main.storyboard */,
 				5BDB367A1A6A2C6F0051CD30 /* Images.xcassets */,
 				5BDB367C1A6A2C6F0051CD30 /* LaunchScreen.xib */,
 				5BDB366D1A6A2C6F0051CD30 /* Supporting Files */,
+				5BDB36971A6A51680051CD30 /* Resources */,
 			);
 			path = "TripMe Flights";
 			sourceTree = "<group>";
@@ -117,6 +122,31 @@
 				5BDB36881A6A2C700051CD30 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BDB36971A6A51680051CD30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BDB36981A6A51680051CD30 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BDB36981A6A51680051CD30 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5BDB36991A6A51680051CD30 /* Tab Bar Icons */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5BDB36991A6A51680051CD30 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5BDB369A1A6A51680051CD30 /* home.png */,
+				5BDB369B1A6A51680051CD30 /* list.png */,
+			);
+			path = "Tab Bar Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDB369C1A6A51680051CD30 /* home.png in Resources */,
+				5BDB369D1A6A51680051CD30 /* list.png in Resources */,
 				5BDB36791A6A2C6F0051CD30 /* Main.storyboard in Resources */,
 				5BDB367E1A6A2C6F0051CD30 /* LaunchScreen.xib in Resources */,
 				5BDB367B1A6A2C6F0051CD30 /* Images.xcassets in Resources */,
@@ -219,8 +251,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BDB36761A6A2C6F0051CD30 /* ViewController.m in Sources */,
 				5BDB36731A6A2C6F0051CD30 /* AppDelegate.m in Sources */,
+				5BDB36961A6A43CA0051CD30 /* TripRequest.m in Sources */,
 				5BDB36701A6A2C6F0051CD30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
