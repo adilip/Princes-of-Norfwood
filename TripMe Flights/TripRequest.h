@@ -11,7 +11,7 @@
 @interface TripRequest : NSObject
 
 @property NSString *origin;
-@property double budget;
+@property NSString *budget;
 @property NSDate *startDate;
 @property NSDate *returnDate;
 

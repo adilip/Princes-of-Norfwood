@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController <UITextFieldDelegate>
+@property (strong, nonatomic) IBOutlet UITextField *origin;
+@property (strong, nonatomic) IBOutlet UITextField *budget;
+- (IBAction)go:(UIButton *)sender;
 
 @end

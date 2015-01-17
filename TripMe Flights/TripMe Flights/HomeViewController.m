@@ -7,8 +7,10 @@
 //
 
 #import "HomeViewController.h"
+#import "TripRequest.h"
 
 @interface HomeViewController ()
+
 
 @end
 
@@ -43,4 +45,11 @@
 }
 */
 
+- (IBAction)go:(UIButton *)sender {
+    NSString *tripRequest = @"http://tripme.ngrok.com/search?airport=";
+    tripRequest = [NSString stringWithFormat:@"%@%@%s%@", tripRequest, self.origin.text, "&price=", self.budget.text];
+    NSURL *tripPush = [NSURL URLWithString:tripRequest];
+    [[UIApplication sharedApplication] openURL:tripPush];
+    NSLog(@"%@", tripRequest);
+}
 @end

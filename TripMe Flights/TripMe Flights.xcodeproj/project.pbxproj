@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BAD05E11A6A988F0072F636 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05E01A6A988F0072F636 /* Trip.m */; };
+		5BAD05E51A6A99920072F636 /* TripCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05E41A6A99920072F636 /* TripCommunicator.m */; };
+		5BAD05E81A6A9C950072F636 /* TripBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05E71A6A9C950072F636 /* TripBuilder.m */; };
+		5BAD05EC1A6AAB040072F636 /* TripManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05EB1A6AAB040072F636 /* TripManager.m */; };
 		5BDB36701A6A2C6F0051CD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB366F1A6A2C6F0051CD30 /* main.m */; };
 		5BDB36731A6A2C6F0051CD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB36721A6A2C6F0051CD30 /* AppDelegate.m */; };
 		5BDB36791A6A2C6F0051CD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB36771A6A2C6F0051CD30 /* Main.storyboard */; };
@@ -50,6 +54,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BAD05DF1A6A988F0072F636 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		5BAD05E01A6A988F0072F636 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		5BAD05E21A6A99040072F636 /* TripCommunicatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCommunicatorDelegate.h; sourceTree = "<group>"; };
+		5BAD05E31A6A99920072F636 /* TripCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCommunicator.h; sourceTree = "<group>"; };
+		5BAD05E41A6A99920072F636 /* TripCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripCommunicator.m; sourceTree = "<group>"; };
+		5BAD05E61A6A9C950072F636 /* TripBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripBuilder.h; sourceTree = "<group>"; };
+		5BAD05E71A6A9C950072F636 /* TripBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripBuilder.m; sourceTree = "<group>"; };
+		5BAD05E91A6A9EBE0072F636 /* TripManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripManagerDelegate.h; sourceTree = "<group>"; };
+		5BAD05EA1A6AAB040072F636 /* TripManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripManager.h; sourceTree = "<group>"; };
+		5BAD05EB1A6AAB040072F636 /* TripManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripManager.m; sourceTree = "<group>"; };
 		5BDB366A1A6A2C6F0051CD30 /* TripMe Flights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TripMe Flights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDB366E1A6A2C6F0051CD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BDB366F1A6A2C6F0051CD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -132,9 +146,19 @@
 				5BDB36721A6A2C6F0051CD30 /* AppDelegate.m */,
 				5BDB36941A6A409A0051CD30 /* TripRequest.h */,
 				5BDB36951A6A43CA0051CD30 /* TripRequest.m */,
+				5BAD05E91A6A9EBE0072F636 /* TripManagerDelegate.h */,
+				5BAD05E61A6A9C950072F636 /* TripBuilder.h */,
+				5BAD05E71A6A9C950072F636 /* TripBuilder.m */,
+				5BAD05EA1A6AAB040072F636 /* TripManager.h */,
+				5BAD05EB1A6AAB040072F636 /* TripManager.m */,
+				5BAD05E21A6A99040072F636 /* TripCommunicatorDelegate.h */,
+				5BAD05E31A6A99920072F636 /* TripCommunicator.h */,
+				5BAD05E41A6A99920072F636 /* TripCommunicator.m */,
 				5BDB36CB1A6A5AE60051CD30 /* HomeViewController.h */,
 				5BDB36CC1A6A5AE60051CD30 /* HomeViewController.m */,
 				5BDB36771A6A2C6F0051CD30 /* Main.storyboard */,
+				5BAD05DF1A6A988F0072F636 /* Trip.h */,
+				5BAD05E01A6A988F0072F636 /* Trip.m */,
 				5BDB367A1A6A2C6F0051CD30 /* Images.xcassets */,
 				5BDB367C1A6A2C6F0051CD30 /* LaunchScreen.xib */,
 				5BDB366D1A6A2C6F0051CD30 /* Supporting Files */,
@@ -287,6 +311,7 @@
 				TargetAttributes = {
 					5BDB36691A6A2C6F0051CD30 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = M9A4HV826G;
 					};
 					5BDB36821A6A2C700051CD30 = {
 						CreatedOnToolsVersion = 6.1;
@@ -360,10 +385,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAD05E11A6A988F0072F636 /* Trip.m in Sources */,
+				5BAD05E81A6A9C950072F636 /* TripBuilder.m in Sources */,
+				5BAD05EC1A6AAB040072F636 /* TripManager.m in Sources */,
 				5BDB36731A6A2C6F0051CD30 /* AppDelegate.m in Sources */,
 				5BDB36961A6A43CA0051CD30 /* TripRequest.m in Sources */,
 				5BDB36701A6A2C6F0051CD30 /* main.m in Sources */,
 				5BDB36CD1A6A5AE60051CD30 /* HomeViewController.m in Sources */,
+				5BAD05E51A6A99920072F636 /* TripCommunicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,9 +514,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TripMe Flights/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -495,9 +527,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TripMe Flights/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -554,6 +589,7 @@
 				5BDB368F1A6A2C700051CD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BDB36901A6A2C700051CD30 /* Build configuration list for PBXNativeTarget "TripMe FlightsTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +598,7 @@
 				5BDB36921A6A2C700051CD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
