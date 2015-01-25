@@ -24,7 +24,7 @@
     NSMutableArray *trips = [[NSMutableArray alloc] init];
     
     NSArray *results = [parsedObject valueForKey:@"results"];
-    NSLog(@"Count %d", results.count);
+    NSLog(@"Count %lu", (unsigned long)results.count);
     
     // Possible errors below
     
@@ -36,6 +36,7 @@
                 [trip setValue:[tripDic valueForKey:key] forKey:key];
             }
         }
+        
         
         [trips addObject:trip];
     }

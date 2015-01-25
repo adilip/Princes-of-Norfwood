@@ -11,6 +11,8 @@
 		5BAD05E51A6A99920072F636 /* TripCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05E41A6A99920072F636 /* TripCommunicator.m */; };
 		5BAD05E81A6A9C950072F636 /* TripBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05E71A6A9C950072F636 /* TripBuilder.m */; };
 		5BAD05EC1A6AAB040072F636 /* TripManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05EB1A6AAB040072F636 /* TripManager.m */; };
+		5BAD05EF1A6AB6590072F636 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05EE1A6AB6590072F636 /* TableViewController.m */; };
+		5BAD05F21A6ABD450072F636 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD05F11A6ABD450072F636 /* DetailCell.m */; };
 		5BDB36701A6A2C6F0051CD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB366F1A6A2C6F0051CD30 /* main.m */; };
 		5BDB36731A6A2C6F0051CD30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB36721A6A2C6F0051CD30 /* AppDelegate.m */; };
 		5BDB36791A6A2C6F0051CD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDB36771A6A2C6F0051CD30 /* Main.storyboard */; };
@@ -64,6 +66,10 @@
 		5BAD05E91A6A9EBE0072F636 /* TripManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripManagerDelegate.h; sourceTree = "<group>"; };
 		5BAD05EA1A6AAB040072F636 /* TripManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripManager.h; sourceTree = "<group>"; };
 		5BAD05EB1A6AAB040072F636 /* TripManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripManager.m; sourceTree = "<group>"; };
+		5BAD05ED1A6AB6590072F636 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5BAD05EE1A6AB6590072F636 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5BAD05F01A6ABD450072F636 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		5BAD05F11A6ABD450072F636 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
 		5BDB366A1A6A2C6F0051CD30 /* TripMe Flights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TripMe Flights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDB366E1A6A2C6F0051CD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BDB366F1A6A2C6F0051CD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -154,6 +160,10 @@
 				5BAD05E21A6A99040072F636 /* TripCommunicatorDelegate.h */,
 				5BAD05E31A6A99920072F636 /* TripCommunicator.h */,
 				5BAD05E41A6A99920072F636 /* TripCommunicator.m */,
+				5BAD05F01A6ABD450072F636 /* DetailCell.h */,
+				5BAD05F11A6ABD450072F636 /* DetailCell.m */,
+				5BAD05ED1A6AB6590072F636 /* TableViewController.h */,
+				5BAD05EE1A6AB6590072F636 /* TableViewController.m */,
 				5BDB36CB1A6A5AE60051CD30 /* HomeViewController.h */,
 				5BDB36CC1A6A5AE60051CD30 /* HomeViewController.m */,
 				5BDB36771A6A2C6F0051CD30 /* Main.storyboard */,
@@ -389,7 +399,9 @@
 				5BAD05E81A6A9C950072F636 /* TripBuilder.m in Sources */,
 				5BAD05EC1A6AAB040072F636 /* TripManager.m in Sources */,
 				5BDB36731A6A2C6F0051CD30 /* AppDelegate.m in Sources */,
+				5BAD05EF1A6AB6590072F636 /* TableViewController.m in Sources */,
 				5BDB36961A6A43CA0051CD30 /* TripRequest.m in Sources */,
+				5BAD05F21A6ABD450072F636 /* DetailCell.m in Sources */,
 				5BDB36701A6A2C6F0051CD30 /* main.m in Sources */,
 				5BDB36CD1A6A5AE60051CD30 /* HomeViewController.m in Sources */,
 				5BAD05E51A6A99920072F636 /* TripCommunicator.m in Sources */,
